@@ -14,8 +14,8 @@ Running interactive reverse proxy for _example.com_
 docker run -it -p 80:8080 -e REVERSE=https://example.com/ 2tunnels/mitmproxy-reverse
 ```
 
-Running deamonized reverse proxy for _wikipedia.org_
+Running deamonized reverse proxy for _reddit.com_
 
 ```bash
-docker run -d -p 80:8080 -e REVERSE=https://en.wikipedia.org/wiki/Main_Page 2tunnels/mitmproxy-reverse
+docker run -d -p 80:8080 -e REVERSE=https://www.reddit.com/ 2tunnels/mitmproxy-reverse
 ```
